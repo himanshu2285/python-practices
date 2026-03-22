@@ -9,3 +9,13 @@ if __name__ == '__main__':
               for k in range(z+1)
               if i+j+k != n]
     print(result)
+    
+    
+# Sample Input 0
+# 1
+# 1
+# 1
+# 3
+
+# Sample Output 0
+# [[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 1, 0], [0, 1, 1], [1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 2]]
